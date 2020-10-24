@@ -1,7 +1,3 @@
-title: Command Line Cheatsheet  
-author: Luke Wickens  
-output: html_document  
-
 ## Command Line Cheatsheet
   
 <code>sudo</code>: allows root level permisson  
@@ -22,7 +18,7 @@ output: html_document
 #### Creation/Deletion Commands
 
 <code>mkdir [name]</code> : Creates a new folder in the current directory.  
-<code>rmdir [name]</code> : Removes the file specified **(This only works on empty folders. For folders containing files see rm) -r.**  
+<code>rmdir [name]</code> : Removes the file specified **(This only works on empty folders. For folders containing files see rm -r)**.  
 <code>rm -r [name]</code> : Removes a folder that is either empty or contains files.  
 <code>rm [name]</code> : Removes the file specified.  
 <code>rm -i</code> : *Interactive* Requires user confirmation before deletion.  
