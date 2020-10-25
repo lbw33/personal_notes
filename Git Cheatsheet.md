@@ -27,6 +27,7 @@
 <code>git log</code> : Provides user with history of commits.  
  
 ### Pushing to GitHub
+<code>git push -u origin master</code> : This sets the upstream so that in future pushes to GitHub you can just use <code>git push -u</code> without having to type out "origin master" as this is now the default.  
 <code>git push -u [remote name] [branch]</code> : Pushes items in staging area (once committed) to GitHub on the specified [branch].
 
 ### Pulling from Github
