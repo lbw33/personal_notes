@@ -54,6 +54,10 @@
 <code>git branch -d [branch]</code> : Deletes specified branch.  
 <code>git branch -D [branch]</code> : Deletes branch (regardless of whether it has been merged).  
 <code>git merge [branchname]</code> : Merges the [branchname] with the main branch.  
+<code>git merge master</code> : Merges the master branch with your current branch.  
+>This should be done regularly to stop the branch you are working on from getting too far behind the master.  
+>This will highlight any conflicts between your current branch and what has been done to the master branch since you last pulled.  
+>If using VS Code this can be done directly from the editor (it will highlight changes and buttons will appear at the top that you can click to accept/compare)  
 <code>git checkout --orphan [branch]</code> : Unlinks the specified branch from the current branch.  
 
 ### Excluding Files
