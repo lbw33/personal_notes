@@ -54,3 +54,7 @@
 <code>git branch -D [branch]</code> : Deletes branch (regardless of whether it has been merged).  
 <code>git merge [branchname]</code> : Merges the [branchname] with the main branch.  
 <code>git checkout --orphan [branch]</code> : Unlinks the specified branch from the current branch.  
+
+### Excluding Files
+<code>touch .gitignore</code> : This will create a .gitignore file.
+>For files that you do not want to have pushed to Git, you enter the file and list the file(inc. extension) that you want to exclude.
