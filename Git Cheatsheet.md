@@ -40,7 +40,8 @@
 ### Reverting to a Previous Point
 <code>git checkout -- [file]</code> : Reverts file to a previous commit point.   
 <code>git checkout [commit hash]</code> : Reverts to a previous commit point.   
->Check <code>git status</code> and copy the commit hash.    
+>Check <code>git status</code> and copy the commit hash.  
+<code>git reset HEAD~1</code> : This will reset the HEAD to point one commit back.    
 
 ### Linkage to GitHub
 <code>git remote -v</code> : Displays list of remote repositories.  
